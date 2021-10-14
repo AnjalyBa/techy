@@ -1,0 +1,13 @@
+---
+- hosts: 127.0.0.1
+  tasks:
+    - name: Install LAMP stack using Ansible
+      become: yes
+      apt:
+        name: "{{ packages }}"
+        state: present
+      vars:
+        packages:
+           - apache2
+           - mysql-server
+           - php
