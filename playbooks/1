@@ -1,0 +1,8 @@
+---
+- hosts: 127.0.0.1
+  task: 
+   - name: "httpd service stop"
+     service:
+         name: "apache2"     
+         state: started
+...     

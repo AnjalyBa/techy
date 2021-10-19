@@ -1,0 +1,14 @@
+---
+- hosts: 127.0.0.1
+  become: yes
+  tasks:
+  - name: check apche2 Latest
+    yum:
+      name: apache2
+      state: present
+  - name: check Nginx
+    yum:
+      name: nginx
+      state: present
+    tags:
+      - webserver 

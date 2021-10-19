@@ -1,0 +1,34 @@
+---
+- hosts: 127.0.0.1
+  
+  tasks:
+    - name: Thomas
+      Age: 30
+      occupation: software developer
+      Adress: malicksyuiuiuo
+              hjklkihyuuuii
+              hjykjjlkjlkl
+      Hobbies: 
+              - writing
+              - reading
+              - cycling  
+      Skills: 
+              - progarmimg:
+                       - java
+                       - python
+              - database:
+                       - mysql
+                       - postgray
+              - devops tools: 
+                       - configration managment:
+                           - ansible
+                           - pupet
+                       - git
+                       - virtualization:
+                                          docker:
+                                             - k8s:
+                                             - 50%
+                                             - swarm:
+                                                -90%
+                                                - coros
+                                          lxc:

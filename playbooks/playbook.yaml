@@ -1,0 +1,9 @@
+---
+- hosts: localhost 
+  tasks:
+  - name: Create a User.
+    user:
+      name: web
+      state: present
+      uid: 5001
+...      

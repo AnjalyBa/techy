@@ -1,0 +1,34 @@
+---
+- hosts: all
+  task: employe details form
+  Name: thomas
+  Age: 34
+  occupation: Software Developer
+  Address: 114 South Buchanan Boulevard
+           Boulevard
+           Durham, NC 27708
+- Hobbies:
+    Writing    
+    Reading
+    Cycling
+- skills:
+  - Programming:    
+      java
+      python
+  - database:
+      mysql
+      postgray     
+  - devops tool:
+    - configuration managemnt:
+        ansil
+        pupet 
+          
+       GIT   
+     - Virtulisation:
+        docker:
+          k8s: 50%
+          swarm: 90%
+          coreqs
+
+        LXC
+

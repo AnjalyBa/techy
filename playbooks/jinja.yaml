@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  name: testing jinja template
+  tasks:
+      - template: 
+               src: /tmp/message.j2
+               dest: /var/www/html/index.html
